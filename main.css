@@ -1,0 +1,523 @@
+/* Thin Signifier */
+@font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-thin.woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-thin-italic.woff2");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Extralight Signifier */
+@font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-extralight.woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-extralight-italic.woff2");
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Light Signifier */
+
+@font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-light.woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-light-italic.woff2");
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Regular Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-regular.woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-regular-italic.woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Medium Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-medium.woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-medium-italic.woff2");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* Bold Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-bold.woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-bold-italic.woff2");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* Black Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-black.woff2");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test Signifier/test-signifier-black-italic.woff2");
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* ExtraLight Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-extraleicht.woff2");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-extraleicht-kursiv.woff2");
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  /* Light Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-leicht.woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-leicht-kursiv.woff2");
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Regular Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-buch.woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-buch-kursiv.woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Medium Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-kraftig.woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-kraftig-kursiv.woff2");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* Semi-Bold Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-halbfett.woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-halbfett-kursiv.woff2");
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  /* Bold Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-dreiviertelfett.woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-dreiviertelfett-kursiv.woff2");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* ExtraBold Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-fett.woff2");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-fett-kursiv.woff2");
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  /* Black Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-extrafett.woff2");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test Söhne/test-soehne-extrafett-kursiv.woff2");
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* ==================== */
+/* Глобальные стили */
+/* ==================== */
+
+/* 
+ * Сбрасывает базовые стили для всех элементов 
+ * Применять в начале каждого проекта для единообразия вёрстки
+ */
+ * {
+    box-sizing: border-box; /* Все элементы включают padding и border в свою ширину/высоту */
+    margin: 0;             /* Убирает стандартные отступы браузеров */
+    border: none;          /* Убирает границы у элементов (лучше сбрасывать индивидуально) */
+  }
+
+  body{
+    background-color: black;
+  }
+  
+  /* 
+   * Стили для списков 
+   * Использовать для меню, списков иконок и других UI-элементов
+   */
+  ul {
+    list-style-type: none;   /* Убирает маркеры списка */
+    padding-left: 0;         /* Обнуляет стандартный padding слева */
+    margin-block-start: 0;   /* Убирает верхний margin (логическое свойство) */
+    margin-block-end: 0;     /* Убирает нижний margin (логическое свойство) */
+  }
+  
+  /* ==================== */
+  /* Шапка сайта (Header) */
+  /* ==================== */
+  
+  /* 
+   * Основной контейнер шапки 
+   * Использовать для фиксированного меню на всех страницах
+   */
+  header {
+    display: flex;          /* Flex-контейнер для выравнивания элементов */
+    height: 80px;           /* Фиксированная высота */
+    background-color: black; /* Цвет фона */
+    color: white;           /* Цвет текста */
+    align-items: center;    /* Вертикальное выравнивание по центру */
+    padding: 22px;          /* Внутренние отступы */
+    position: fixed;        /* Фиксированное позиционирование */
+    width: 100%;           /* На всю ширину экрана */
+    z-index: 10;           /* Приоритет слоя (должен быть выше других элементов) */
+  }
+  
+  /* 
+   * Контейнер для логотипа 
+   * Использовать для логотипа в левой части шапки
+   */
+  .imageWrapper {
+    margin-right: 200px;    /* Отступ справа для разделения лого и меню */
+  }
+  
+  /* 
+   * Стилизация логотипа 
+   * Важно сохранять пропорции бренда
+   */
+  .imageWrapper img {
+    width: 118px;           /* Фиксированная ширина */
+    height: 32px;           /* Фиксированная высота */
+  }
+  
+  /* 
+   * Основное меню навигации 
+   * Использовать для главного меню сайта
+   */
+  nav ul {
+    display: flex;          /* Горизонтальное меню */
+  }
+  
+  /* 
+   * Пункты меню 
+   * Рекомендуется для всех навигационных элементов
+   */
+  nav ul li {
+    margin-right: 35px;     /* Расстояние между пунктами */
+    font-family: Soehne;    /* Шрифт (должен быть подключён) */
+    font-size: 18px;        /* Размер текста */
+    cursor: pointer;        /* Изменение курсора при наведении */
+  }
+  
+  /* Эффект при наведении на пункт меню */
+  nav ul li:hover {
+    text-decoration: underline; /* Подчёркивание текста */
+  }
+  
+  /* 
+   * Кнопка в шапке 
+   * Использовать для CTA-элементов (регистрация, вход и т.д.)
+   */
+  header button {
+    position: absolute;     /* Абсолютное позиционирование */
+    right: 24px;            /* Отступ справа */
+    border: none;           /* Без рамки */
+    background-color: black; /* Цвет фона */
+    color: white;           /* Цвет текста */
+    font-family: Soehne;    /* Шрифт */
+    font-size: 18px;        /* Размер текста */
+    cursor: pointer;       /* Изменение курсора */
+  }
+  
+  /* Эффект при наведении на кнопку */
+  header button:hover {
+    text-decoration: underline; /* Подчёркивание текста */
+  }
+  
+  /* ==================== */
+  /* Главная секция */
+  /* ==================== */
+  
+  /* 
+   * Контейнер для фонового видео 
+   * Использовать для полноэкранных hero-секций
+   */
+  .mainScreen {
+    height: 100vh;         /* На всю высоту экрана */
+  }
+  
+  /* 
+   * Стилизация фонового видео 
+   * Важно для адаптивного заполнения пространства
+   */
+  .mainScreen video {
+    height: 100%;          /* На всю высоту родителя */
+    width: 100%;           /* На всю ширину родителя */
+    object-fit: cover;     /* Заполнение с сохранением пропорций */
+    filter: brightness(0.6);
+  }
+  
+  /* 
+   * Контейнер для текста 
+   * Использовать для основного сообщения на hero-секции
+   */
+  .mainText {
+    position: absolute;    /* Позиционирование поверх видео */
+    bottom: 0px;           /* Прижатие к низу */
+    left: 0px;             /* Прижатие к левому краю */
+    padding: 50px 250px 50px 250px; /* Большие отступы для читаемости */
+  }
+  
+  /* 
+   * Заголовок hero-секции 
+   * Важно для SEO и первого впечатления
+   */
+  .mainText h1 {
+    color: white;          /* Цвет текста */
+    font-size: 73px;       /* Крупный размер */
+    font-weight: 400;      /* Нормальное начертание */
+    font-family: Soehne;   /* Шрифт */
+    line-height: 73px;     /* Межстрочный интервал */
+    margin-bottom: 70px;   /* Отступ снизу */
+  }
+  
+  /* 
+   * Ссылки в hero-секции 
+   * Использовать для основных CTA-кнопок
+   */
+  .mainText a {
+    font-family: Soehne;   /* Шрифт */
+    font-size: 18px;       /* Размер текста */
+    text-decoration: none; /* Убирает подчёркивание */
+    color: white;          /* Цвет текста */
+    padding: 5px 10px;     /* Внутренние отступы */
+  }
+  
+  /* 
+   * Специфичный стиль для первой ссылки 
+   * Использовать для основной кнопки действия
+   */
+  .mainScreen h1 + a {
+    border: 1px solid white; /* Рамка вокруг кнопки */
+  }
+  
+  /* Эффект при наведении на первую ссылку */
+  .mainScreen h1 + a:hover {
+    background-color: white; /* Инвертированные цвета */
+    color: black;
+  }
+  
+  /* 
+   * Стиль для последней ссылки 
+   * Использовать для вторичных действий
+   */
+  .mainScreen a:last-child {
+    text-decoration: underline; /* Подчёркивание */
+  }
+  
+  /* Эффект при наведении на последнюю ссылку */
+  .mainScreen a:last-child:hover {
+    text-decoration-color: #ffffff80; /* Полупрозрачное подчёркивание */
+  }
+
+  /*  Section Featured */
+
+  .featured{
+    background-color: black;
+    padding: 50px 20px 100px;
+  }
+
+  .featured div{
+    display: flex;
+  }
+
+  .featured .item{
+    width: 25%;
+    color: white;
+    font-family: Soehne;
+    padding-right: 100px;
+    text-decoration: none;
+  }
+
+  .featured h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .featured p{
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .featured .item:hover p{
+    text-decoration-color: #ffffff80;
+  }
+
+  .divider{
+    margin: 0 20px;
+    border-bottom: 1px solid white;
+  }
+
+  /* ChatGPT Section */
+
+  .chatGPT {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 100px;
+  }
+
+  .chatGPT img{
+    width: 50%;
+  }
+
+  .chatGPT h2{
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .chatGPT p{
+    font-size: 18px;
+    font-family: Soehne;
+    margin-bottom: 20px;
+  }
+
+  .chatGPT a{
+    font-size: 18px;
+    font-family: Soehne;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .chatGPT a:hover{
+    text-decoration-color: #ffffff80;
+  }
+
+  .chatGPT .textWrapper{
+    padding: 0px 20px;
+  } 
+
+  .chatGPT .anchorWrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+  

@@ -345,6 +345,20 @@
   header button:hover {
     text-decoration: underline; /* Подчёркивание текста */
   }
+
+  header button:last-of-type {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    header nav,
+    header button:first-of-type{
+        display: none;
+    }
+    header button:last-of-type {
+        display: block;
+      }
+  }
   
   /* ==================== */
   /* Главная секция */
@@ -432,6 +446,17 @@
     text-decoration-color: #ffffff80; /* Полупрозрачное подчёркивание */
   }
 
+  @media screen and (max-width: 768px) {
+    .mainText {
+        padding: 20px 10px; /* Большие отступы для читаемости */
+    }
+    .mainText h1 {
+        font-size: 55px;
+        margin-bottom: 50px;
+        
+    }
+  }
+
   /*  Section Featured */
 
   .featured{
@@ -472,6 +497,28 @@
 
   .divider.ghost {
     border-bottom: 1px solid #ffffff66;
+  }
+
+  @media screen and (max-width: 768px) {
+    .featured div{
+        flex-wrap: wrap;
+    }
+    .featured .item{
+        width: 50%;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+    .featured h3 {
+        font-size: 24px;
+    }
+    
+    .featured p {
+        font-size: 16px;
+    }
+    
+    .featured {
+        padding-bottom: 70px;
+    }
   }
 
   /* ChatGPT Section */
@@ -518,6 +565,17 @@
   .chatGPT .anchorWrapper{
     display: flex;
     flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    .chatGpt h2 {
+      font-size: 36px;
+    }
+  
+    .chatGpt p,
+    .chatGpt a {
+      font-size: 16px;
+    }
   }
 
   /* Updates Section */
@@ -587,6 +645,27 @@
     text-decoration-color: white;
   }
 
+  @media screen and (max-width: 768px) {
+    .updateSection .itemWrapper{
+        flex-wrap: wrap;
+    }
+
+    .updateSection .itemWrapper .item{
+        width: 49%;
+        padding-bottom: 50px;
+    }
+
+    .updateSection .item h3,
+    .updateSection .item p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .updateSection {
+        padding-bottom: 50px;
+      }
+  }
+
   /* Safety Section */
 
   .safety {
@@ -625,6 +704,21 @@
     font-size: 18px;
     font-family: Soehne;
     color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    .safety .textWrapper h2 {
+      font-size: 36px;
+      padding-right: 50px;
+    }
+  
+    .safety .textWrapper p {
+      font-size: 24px;
+    }
+  
+    .safety .textWrapper a {
+      font-size: 16px;
+    }
   }
 
   /* Research Section */
@@ -695,6 +789,33 @@
     color: #ffffff;
   }
 
+  @media screen and (max-width: 768px) {
+    .research .itemWrapper .item {
+        width: 49%;
+        margin-bottom: 50px;
+    }
+    .research .itemWrapper {
+        flex-wrap: wrap;
+    }
+    .research .textWrapper h2 {
+        font-size: 36px;
+      }
+    
+      .research .textWrapper p {
+        font-size: 24px;
+      }
+    
+      .research .textWrapper a {
+        font-size: 16px;
+      }
+    
+      .research {
+        padding-bottom: 50px;
+      }
+    
+    
+  }
+
   /* Products Section */
 
   .product {
@@ -761,6 +882,34 @@
     font-family: Soehne;
     color: #ffffff;
   }
+
+  @media screen and (max-width: 768px) {
+    .product .itemWrapper .item {
+        width: 49%;
+        padding-bottom: 50px;
+      }
+
+      .product .itemWrapper {
+        flex-wrap: wrap;
+      }
+
+      .product .textWrapper h2 {
+        font-size: 36px;
+      }
+    
+      .product .textWrapper p {
+        font-size: 24px;
+      }
+    
+      .product .textWrapper a {
+        font-size: 16px;
+      }
+    
+      .product {
+        padding-bottom: 50px;
+      }
+  }
+
 
   /* Careers Section */
 
@@ -836,6 +985,14 @@
     width: 50%;
   }
 
+  @media screen and (max-width: 768px) {
+    .lilian q {
+      font-size: 42px;
+      line-height: 1.1em;
+      margin-bottom: 20px;
+    }
+  }
+
   /* Join Us Section */
 
   .joinUs {
@@ -866,6 +1023,17 @@
   .joinUs a:hover {
     background-color: #ffffff;
     color: #000000;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .joinUs h2 {
+      font-size: 55px;
+    }
+  
+    .joinUs a {
+      font-size: 24px;
+    }
   }
 
   /* footer */
@@ -903,6 +1071,21 @@
     font-weight: 700;
   }
 
+  @media screen and (max-width: 768px) {
+    footer .navigation {
+        position: relative;
+    }
+
+    footer .navigation .imageWrapper{
+        position: absolute;
+        top: -60px;
+    }
+
+    footer .navigation ul{
+        width: 25%;
+      }
+  }
+
   .last {
     display: flex;
     padding: 20px;
@@ -924,7 +1107,28 @@
     margin-right: 10px;
   }
 
+  @media screen and (max-width: 768px) {
+    .last .copyright {
+        width: 50%;
+      }
+      .last {
+        display: flex;
+        padding: 20px 0px;
+      }
+  }
 
+  @media screen and (max-width: 375px) {
+  .last .copyright {
+    width: 50%;
+  }
+  .last .right {
+    width: 50%;
+  }
+
+  .last .right ul {
+    flex-direction: column;
+  }
+}
   
 
 
